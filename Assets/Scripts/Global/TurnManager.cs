@@ -11,21 +11,37 @@ public class TurnManager : MonoBehaviour
 
     [Header("References")]
     public Character[] charactersInBattle;
+
+    [Header("HUD")]
     public GameObject hudAction;
+    public GameObject battleHudObj; //Objeto de prefab para instanciar as HUDs de batalha.
+    public GameObject battleHudParent;  //Objeto que vai receber as HUDs.
+    public List<BattleHUD> bHUDInstantiateds; //Lista que vai guardar os objetos instanciados.
 
     [Header("Control")]
     public GameObject currentTurnCharacter;
 
     void Start()
     {
-        charactersInBattle = FindObjectsOfType<Character>();
-        charactersInBattle = charactersInBattle.OrderByDescending(i => i.Speed).ToArray();
-        StartCoroutine(CheckTurn());
+        SetupBattle();
+        Debug.Log(LayerMask.GetMask("Targetable"));
     }
 
-    void Update()
+    void SetupBattle()
     {
+        charactersInBattle = FindObjectsOfType<Character>();
+        charactersInBattle = charactersInBattle.OrderByDescending(i => i.Speed).ToArray(); //Reordenando a lista de chars por speed
+        StartCoroutine(CheckTurn());
 
+        for(int i = 0; i < charactersInBattle.Length; i++)
+        {
+            if(charactersInBattle[i].GetComponent<Character>().Type == CharacterType.Player)
+            {
+                BattleHUD bHUD = Instantiate(battleHudObj, battleHudParent.transform).GetComponent<BattleHUD>();
+                bHUD.SetHUD(charactersInBattle[i].GetComponent<Character>());
+                bHUDInstantiateds.Add(bHUD);
+            }
+        }     
     }
 
     void DispelHudButtons()
