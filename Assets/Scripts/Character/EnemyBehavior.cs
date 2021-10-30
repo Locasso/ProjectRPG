@@ -26,5 +26,4 @@ public class EnemyBehavior : Character
 
         return base.AttackSkill();
     }
-
 }

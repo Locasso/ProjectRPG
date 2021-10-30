@@ -70,7 +70,7 @@ public class Character : MonoBehaviour
     }
 
     public virtual IEnumerator AttackSkill()
-    {
+    {	
         if (type == CharacterType.Player)
         {
             OnPlayerAttacked?.Invoke();
