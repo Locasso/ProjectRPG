@@ -24,7 +24,6 @@ public class TurnManager : MonoBehaviour
     void Start()
     {
         SetupBattle();
-        Debug.Log(LayerMask.GetMask("Targetable"));
     }
 
     void SetupBattle()
@@ -33,22 +32,30 @@ public class TurnManager : MonoBehaviour
         charactersInBattle = charactersInBattle.OrderByDescending(i => i.Speed).ToArray(); //Reordenando a lista de chars por speed
         StartCoroutine(CheckTurn());
 
-        for(int i = 0; i < charactersInBattle.Length; i++)
+        for (int i = 0; i < charactersInBattle.Length; i++)
         {
-            if(charactersInBattle[i].GetComponent<Character>().Type == CharacterType.Player)
+            if (charactersInBattle[i].GetComponent<Character>().Type == CharacterType.Player)
             {
                 BattleHUD bHUD = Instantiate(battleHudObj, battleHudParent.transform).GetComponent<BattleHUD>();
                 bHUD.SetHUD(charactersInBattle[i].GetComponent<Character>());
                 bHUDInstantiateds.Add(bHUD);
             }
-        }     
+        }
     }
 
     void DispelHudButtons()
     {
+        void ControlHud()
+        {
+            hudAction.SetActive(false);
+        }
+
         for (int i = 0; i < hudAction.transform.childCount; i++)
             if (!hudAction.transform.GetChild(i).GetComponent<Button>().IsNull())
+            {
                 hudAction.transform.GetChild(i).GetComponent<Button>().onClick.RemoveAllListeners();
+                hudAction.transform.GetChild(i).GetComponent<Button>().onClick.AddListener(() => ControlHud());
+            }
     }
 
     IEnumerator CheckTurn()
@@ -59,21 +66,35 @@ public class TurnManager : MonoBehaviour
 
             var character = charactersInBattle[ControlGlobalVariables.currentTurnCharacterValue];
 
-            if (character.Type == CharacterType.Player)
+            if (character.gameObject.activeInHierarchy)
             {
-                for (int i = 0; i < hudAction.transform.childCount; i++)
-                    if (!hudAction.transform.GetChild(i).GetComponent<Button>().IsNull())
-                        if (hudAction.transform.GetChild(i).gameObject.name == "attack_btn")
-                            hudAction.transform.GetChild(i).GetComponent<Button>().onClick.AddListener(() =>
-                            character.GetComponent<Character>().InvokeAttackSkill());
-            }
-            else if (character.Type == CharacterType.Enemy)
-            {
-                character.GetComponent<EnemyBehavior>().NormalBehavior();
+                if (character.Type == CharacterType.Player)
+                {
+                    hudAction.SetActive(true);
+                    character.Cursor.gameObject.SetActive(true);
+                    for (int i = 0; i < hudAction.transform.childCount; i++)
+                    {
+                        if (!hudAction.transform.GetChild(i).GetComponent<Button>().IsNull())
+                        {
+                            if (hudAction.transform.GetChild(i).gameObject.name == "attack_btn")
+                            {
+                                hudAction.transform.GetChild(i).GetComponent<Button>().onClick.AddListener(() =>
+                                character.GetComponent<Character>().InvokeAttackSkill());
+                            }
+                        }
+                        if (hudAction.transform.GetChild(i).gameObject.name == "current_char")
+                            hudAction.transform.GetChild(i).gameObject.GetComponent<Image>().sprite = character.Portrait;
+                    }
+                }
+                else if (character.Type == CharacterType.Enemy)
+                {
+                    character.GetComponent<EnemyBehavior>().NormalBehavior();
+                }
+
+                yield return new WaitUntil(() => charactersInBattle[ControlGlobalVariables.currentTurnCharacterValue].GetComponent<Character>().FinishedTurn);
             }
 
-            yield return new WaitUntil(() => charactersInBattle[ControlGlobalVariables.currentTurnCharacterValue].GetComponent<Character>().FinishedTurn);
-
+            character.Cursor.SetActive(false);
             OnFinishedTurn?.Invoke();
             DispelHudButtons();
 

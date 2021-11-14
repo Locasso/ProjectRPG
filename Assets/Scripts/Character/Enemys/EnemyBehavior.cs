@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class EnemyBehavior : Character
 {
+    public Sprite deathSprite;
+
+    public Sprite DeathSprite { get => deathSprite; set => deathSprite = value; }
+
     public void NormalBehavior()
     {
         InvokeAttackSkill();
@@ -25,5 +29,15 @@ public class EnemyBehavior : Character
         target = possibleTargets[targetId];
 
         return base.AttackSkill();
+    }
+
+    void OnMouseOver()
+    {
+        Cursor.SetActive(true);
+    }
+
+    void OnMouseExit()
+    {
+        Cursor.SetActive(false);
     }
 }

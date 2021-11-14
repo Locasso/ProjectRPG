@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class BattleHUD : MonoBehaviour
 {
     int id;
+    public Image portrait;
     public TMP_Text nameText;
     public TMP_Text levelText;
     public Slider hpSlider;
@@ -21,6 +22,7 @@ public class BattleHUD : MonoBehaviour
     {
         id = character.Id;
         maxHp = character.MaxHP;
+        portrait.sprite = character.Portrait;
 
         nameText.SetText(character.CharacterName);
         levelText.SetText($"Lvl.{character.Level.ToString()}");

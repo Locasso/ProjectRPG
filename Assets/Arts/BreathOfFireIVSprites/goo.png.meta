@@ -1,0 +1,2784 @@
+fileFormatVersion: 2
+guid: 82e9b5d391908324bb0d98b5de1b2fc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8066128649685397002
+    second: goo_0
+  - first:
+      213: 8027420770003373014
+    second: goo_19
+  - first:
+      213: 8377383011470167179
+    second: goo_23
+  - first:
+      213: -2544535988675499720
+    second: goo_24
+  - first:
+      213: 1830636622132860190
+    second: goo_25
+  - first:
+      213: -5097510313585625231
+    second: goo_26
+  - first:
+      213: -2241192901093192842
+    second: goo_27
+  - first:
+      213: -4380974213001960757
+    second: goo_28
+  - first:
+      213: -5352011278484283856
+    second: goo_40
+  - first:
+      213: -4335277153014313318
+    second: goo_41
+  - first:
+      213: 1635868752271395687
+    second: goo_42
+  - first:
+      213: 4453921584604730998
+    second: goo_43
+  - first:
+      213: 1720436879448136264
+    second: goo_44
+  - first:
+      213: -4145567072586444154
+    second: goo_45
+  - first:
+      213: 2521992097939345421
+    second: goo_46
+  - first:
+      213: -2493580885918966396
+    second: goo_47
+  - first:
+      213: -505198740473589893
+    second: goo_48
+  - first:
+      213: 8542056777216376520
+    second: goo_49
+  - first:
+      213: -514658992498355393
+    second: goo_50
+  - first:
+      213: -5786347089316717819
+    second: goo_52
+  - first:
+      213: -831815254543772003
+    second: goo_53
+  - first:
+      213: 8117308358101053171
+    second: goo_54
+  - first:
+      213: 4257282836478357976
+    second: goo_59
+  - first:
+      213: 8261573298583650442
+    second: goo_60
+  - first:
+      213: -7024741173189920111
+    second: goo_61
+  - first:
+      213: 1450600887659758057
+    second: goo_62
+  - first:
+      213: 4200151444539046014
+    second: goo_63
+  - first:
+      213: 5973364447095728808
+    second: goo_64
+  - first:
+      213: 8142713924780942587
+    second: goo_65
+  - first:
+      213: -7910067076284539086
+    second: goo_66
+  - first:
+      213: 766815140113730099
+    second: goo_67
+  - first:
+      213: -5861632819536850582
+    second: goo_68
+  - first:
+      213: -5252344584313881672
+    second: goo_69
+  - first:
+      213: -8732608139688917015
+    second: goo_70
+  - first:
+      213: 6520926665808031862
+    second: goo_71
+  - first:
+      213: 4694683643354034108
+    second: goo_72
+  - first:
+      213: -1067915685176225236
+    second: goo_73
+  - first:
+      213: 7264303783804725103
+    second: goo_74
+  - first:
+      213: -1169874875177097245
+    second: goo_77
+  - first:
+      213: -1068799513913785813
+    second: goo_78
+  - first:
+      213: 9109933580244444509
+    second: goo_79
+  - first:
+      213: -5482822507366769452
+    second: goo_80
+  - first:
+      213: -69680209572693778
+    second: goo_81
+  - first:
+      213: -6783746456694210053
+    second: goo_82
+  - first:
+      213: -2241390323185903027
+    second: goo_83
+  - first:
+      213: 6892133347001581901
+    second: goo_84
+  - first:
+      213: 1794592658000967582
+    second: goo_85
+  - first:
+      213: 3164714340245473976
+    second: goo_87
+  - first:
+      213: 3999759463722683612
+    second: goo_89
+  - first:
+      213: -4271342159188306533
+    second: goo_91
+  - first:
+      213: -156248603267552833
+    second: goo_92
+  - first:
+      213: -5579966423189392213
+    second: goo_94
+  - first:
+      213: 4880851117641995201
+    second: goo_95
+  - first:
+      213: 6077367269329194414
+    second: goo_96
+  - first:
+      213: 3608028629812945833
+    second: goo_97
+  - first:
+      213: 3889562684062072581
+    second: goo_98
+  - first:
+      213: 6162038117551912030
+    second: goo_100
+  - first:
+      213: -2875034503339516716
+    second: goo_101
+  - first:
+      213: 4021135141641849636
+    second: goo_102
+  - first:
+      213: -4766609730612643152
+    second: goo_103
+  - first:
+      213: -840328612228679487
+    second: goo_105
+  - first:
+      213: 7099842713292868826
+    second: goo_107
+  - first:
+      213: -6161877255351879579
+    second: goo_108
+  - first:
+      213: 4482953567877928406
+    second: goo_109
+  - first:
+      213: 3173777492813800854
+    second: goo_110
+  - first:
+      213: 2125852883075779150
+    second: goo_111
+  - first:
+      213: -199245514123586120
+    second: goo_113
+  - first:
+      213: -5213088015196589860
+    second: goo_114
+  - first:
+      213: -5659716669472938303
+    second: goo_115
+  - first:
+      213: 7333685888164484325
+    second: goo_117
+  - first:
+      213: 5369156130284156040
+    second: goo_118
+  - first:
+      213: -5044979472711572122
+    second: goo_120
+  - first:
+      213: -4910502868974147118
+    second: goo_121
+  - first:
+      213: -1962053666509654678
+    second: goo_125
+  - first:
+      213: 1978170882350134890
+    second: goo_126
+  - first:
+      213: 7161828942149058826
+    second: goo_127
+  - first:
+      213: -2812290817654135127
+    second: goo_128
+  - first:
+      213: -751246805422904491
+    second: goo_129
+  - first:
+      213: 4491882494763821685
+    second: goo_130
+  - first:
+      213: 3840411253712104275
+    second: goo_131
+  - first:
+      213: 3165946161711132086
+    second: goo_132
+  - first:
+      213: -2538362381242678636
+    second: goo_133
+  - first:
+      213: 2626935568672525669
+    second: goo_134
+  - first:
+      213: -6749144893875531529
+    second: goo_135
+  - first:
+      213: 7198784765671103780
+    second: goo_136
+  - first:
+      213: -8044449329848140015
+    second: goo_137
+  - first:
+      213: -3092643736564817439
+    second: goo_144
+  - first:
+      213: -8987133814163017702
+    second: goo_146
+  - first:
+      213: -4268661591040346901
+    second: goo_148
+  - first:
+      213: 2490515928994675253
+    second: goo_150
+  - first:
+      213: -3391355779005276237
+    second: goo_151
+  - first:
+      213: -7927637801924722599
+    second: goo_152
+  - first:
+      213: 8044312652102435568
+    second: goo_153
+  - first:
+      213: -1793104044653196591
+    second: goo_1
+  - first:
+      213: -7671877405851984578
+    second: goo_2
+  - first:
+      213: -7258955049455995787
+    second: goo_3
+  - first:
+      213: 4734103428585542916
+    second: goo_4
+  - first:
+      213: -4189414386486687002
+    second: goo_5
+  - first:
+      213: 392484277959429916
+    second: goo_6
+  - first:
+      213: 4303798666504557715
+    second: goo_7
+  - first:
+      213: -1507119122507496557
+    second: goo_8
+  - first:
+      213: -3926048325364121202
+    second: goo_9
+  - first:
+      213: 8679501866912415499
+    second: goo_10
+  - first:
+      213: -7802644364486620691
+    second: goo_11
+  - first:
+      213: -7208747237768585243
+    second: goo_12
+  - first:
+      213: 2532180585493505969
+    second: goo_13
+  - first:
+      213: -7579873271423926226
+    second: goo_14
+  - first:
+      213: 287609120528980164
+    second: goo_15
+  - first:
+      213: -2171697619254770360
+    second: goo_16
+  - first:
+      213: 6036980294106440559
+    second: goo_17
+  - first:
+      213: 2119289345123596731
+    second: goo_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goo_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 284
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e691d4545a0ff60800000000000000
+      internalID: 8066128649685397002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 284
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbc4a2c8a0276f60800000000000000
+      internalID: 8027420770003373014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_23
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 284
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c4212b671724470800000000000000
+      internalID: 8377383011470167179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_24
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 284
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839acc4fffdffacd0800000000000000
+      internalID: -2544535988675499720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_25
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 284
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15dc070f4ab76910800000000000000
+      internalID: 1830636622132860190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_26
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 284
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177b6d7a0610249b0800000000000000
+      internalID: -5097510313585625231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_27
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 284
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b86394eeea5e0e0800000000000000
+      internalID: -2241192901093192842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 245
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc22fd72a27a333c0800000000000000
+      internalID: -4380974213001960757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_40
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 283
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e5f003916d9b5b0800000000000000
+      internalID: -5352011278484283856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_41
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 283
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e07bb066006d3c0800000000000000
+      internalID: -4335277153014313318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_42
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 283
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b4c4686f5c3b610800000000000000
+      internalID: 1635868752271395687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_43
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 187
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765fc355128fcd30800000000000000
+      internalID: 4453921584604730998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 186
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84adcf10a3830e710800000000000000
+      internalID: 1720436879448136264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_45
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 187
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682dded26bcf776c0800000000000000
+      internalID: -4145567072586444154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 190
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d005404737aeff220800000000000000
+      internalID: 2521992097939345421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_47
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 205
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d98145565056dd0800000000000000
+      internalID: -2493580885918966396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_48
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 209
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fc8151c6c2df8f0800000000000000
+      internalID: -505198740473589893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 211
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce3331916b7b8670800000000000000
+      internalID: 8542056777216376520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_50
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 210
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33dca38f509bd8f0800000000000000
+      internalID: -514658992498355393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_52
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 203
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b592acaf3c2bfa0800000000000000
+      internalID: -5786347089316717819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_53
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 222
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96da22ee6cc474f0800000000000000
+      internalID: -831815254543772003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_54
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 219
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe2ce0c1f876a070800000000000000
+      internalID: 8117308358101053171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_59
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 129
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1f8a80f28e41b30800000000000000
+      internalID: 4257282836478357976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_60
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 133
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a804ee3b42107a270800000000000000
+      internalID: 8261573298583650442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_61
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 149
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a34f42f1b138e90800000000000000
+      internalID: -7024741173189920111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 162
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e183db52d1912410800000000000000
+      internalID: 1450600887659758057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_63
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 129
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78f7964c7fe94a30800000000000000
+      internalID: 4200151444539046014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_64
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 133
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaa61ff057a5e250800000000000000
+      internalID: 5973364447095728808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_65
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 149
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4e1323c2bb00170800000000000000
+      internalID: 8142713924780942587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_66
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 162
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f1c8847ebc93290800000000000000
+      internalID: -7910067076284539086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_67
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 129
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33aced2ae4644aa00800000000000000
+      internalID: 766815140113730099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_68
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 133
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a611cb3c10c47aea0800000000000000
+      internalID: -5861632819536850582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_69
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 149
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb360ebd6ceb17b0800000000000000
+      internalID: -5252344584313881672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_70
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 162
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7482f0a2b8fc680800000000000000
+      internalID: -8732608139688917015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_71
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 129
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6703cd1d04cfe7a50800000000000000
+      internalID: 6520926665808031862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_72
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 133
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf24fe66edd62140800000000000000
+      internalID: 4694683643354034108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_73
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 149
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22d007a7500e21f0800000000000000
+      internalID: -1067915685176225236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_74
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 162
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e43eadcdffc460800000000000000
+      internalID: 7264303783804725103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_77
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 81
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e72a61dff4c3cfe0800000000000000
+      internalID: -1169874875177097245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_78
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 100
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b220f0d318cda21f0800000000000000
+      internalID: -1068799513913785813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_79
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 71
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d556fd1235cfc6e70800000000000000
+      internalID: 9109933580244444509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 99
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc13e19af919e3b0800000000000000
+      internalID: -5482822507366769452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_81
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 69
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee87b84f732780ff0800000000000000
+      internalID: -69680209572693778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_82
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 95
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf14d6a1a8a4bd1a0800000000000000
+      internalID: -6783746456694210053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_83
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 67
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a918f506bf4e0e0800000000000000
+      internalID: -2241390323185903027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_84
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 66
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4147a453c6c5af50800000000000000
+      internalID: 6892133347001581901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_85
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 65
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97fba8a38ca7e810800000000000000
+      internalID: 1794592658000967582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_87
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 65
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba8ae1dce25beb20800000000000000
+      internalID: 3164714340245473976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_89
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 63
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc82366a00028730800000000000000
+      internalID: 3999759463722683612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_91
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 64
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b955e6fcfe429b4c0800000000000000
+      internalID: -4271342159188306533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_92
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 64
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9269129b4e4ddf0800000000000000
+      internalID: -156248603267552833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_94
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 67
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4703f1a1aff82b0800000000000000
+      internalID: -5579966423189392213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_95
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 83
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c39e9c4b344cb340800000000000000
+      internalID: 4880851117641995201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_96
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 105
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadc3f90555275450800000000000000
+      internalID: 6077367269329194414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_97
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 109
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3a0733cea421230800000000000000
+      internalID: 3608028629812945833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_98
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 102
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f722347a08af530800000000000000
+      internalID: 3889562684062072581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_100
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 80
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5439112505f38550800000000000000
+      internalID: 6162038117551912030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_101
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 80
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcd47f0a53d918d0800000000000000
+      internalID: -2875034503339516716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_102
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 100
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b076f3b11fdc730800000000000000
+      internalID: 4021135141641849636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_103
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 81
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bab9ef54b999ddb0800000000000000
+      internalID: -4766609730612643152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_105
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 81
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83385549d8654f0800000000000000
+      internalID: -840328612228679487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_107
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 37
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc87f6c455b78260800000000000000
+      internalID: 7099842713292868826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_108
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5683135884d9c7aa0800000000000000
+      internalID: -6161877255351879579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_109
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 8
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d51feda486a63e30800000000000000
+      internalID: 4482953567877928406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_110
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 10
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695eb4770d58b0c20800000000000000
+      internalID: 3173777492813800854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_111
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 8
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ac8741feb808d10800000000000000
+      internalID: 2125852883075779150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_113
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 10
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5d293b2432c3df0800000000000000
+      internalID: -199245514123586120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_114
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 8
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd07c5ff11467a7b0800000000000000
+      internalID: -5213088015196589860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_115
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 10
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c665b2fca5a471b0800000000000000
+      internalID: -5659716669472938303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_117
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 8
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4d652b57c76c560800000000000000
+      internalID: 7333685888164484325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_118
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 10
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884b231bd03138a40800000000000000
+      internalID: 5369156130284156040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_120
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 8
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665a3e526e1acf9b0800000000000000
+      internalID: -5044979472711572122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_121
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 37
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9624a58a36adbb0800000000000000
+      internalID: -4910502868974147118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_125
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 245
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a657071f59265c4e0800000000000000
+      internalID: -1962053666509654678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_126
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 245
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66308bcfefd37b10800000000000000
+      internalID: 1978170882350134890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_127
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 245
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0108e65a7de36360800000000000000
+      internalID: 7161828942149058826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_128
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 245
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6e1a8c66cb8f8d0800000000000000
+      internalID: -2812290817654135127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_129
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 245
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bee10c2090395f0800000000000000
+      internalID: -751246805422904491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_130
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 245
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a6139745f565e30800000000000000
+      internalID: 4491882494763821685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_131
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 245
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b2ce810b1eb4530800000000000000
+      internalID: 3840411253712104275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_132
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 245
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdadca9243bfeb20800000000000000
+      internalID: 3165946161711132086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_133
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 216
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492c0d2fcdce5ccd0800000000000000
+      internalID: -2538362381242678636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_134
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 198
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d809a4bffb47420800000000000000
+      internalID: 2626935568672525669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_135
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 188
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f058ee3a783652a0800000000000000
+      internalID: -6749144893875531529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_136
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 187
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dd1548a9837e360800000000000000
+      internalID: 7198784765671103780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_137
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 187
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fb5c0b4ff5c5090800000000000000
+      internalID: -8044449329848140015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_144
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 131
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1a73938e8b415d0800000000000000
+      internalID: -3092643736564817439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_146
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 131
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1079e17969474380800000000000000
+      internalID: -8987133814163017702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_148
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 131
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4bfa736eaa2c4c0800000000000000
+      internalID: -4268661591040346901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_150
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 131
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53afd27ca07109220800000000000000
+      internalID: 2490515928994675253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_151
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 82
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf1c6d13eb7fe0d0800000000000000
+      internalID: -3391355779005276237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_152
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 80
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950815ceb6f5bf190800000000000000
+      internalID: -7927637801924722599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_153
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 15
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f20fba8cb323af60800000000000000
+      internalID: 8044312652102435568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 284
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da41252f5d9d17e0800000000000000
+      internalID: -1793104044653196591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 284
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dd8df8524088590800000000000000
+      internalID: -7671877405851984578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 284
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574b5a497d2034b90800000000000000
+      internalID: -7258955049455995787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 284
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405dcc66cf9e2b140800000000000000
+      internalID: 4734103428585542916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 285
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eacc8cdfc53cd5c0800000000000000
+      internalID: -4189414386486687002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 285
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f82bf0f52627500800000000000000
+      internalID: 392484277959429916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 286
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ddcda51a2abb30800000000000000
+      internalID: 4303798666504557715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 286
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3930eb4a423a51be0800000000000000
+      internalID: -1507119122507496557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_9
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 286
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8187a369dfd389c0800000000000000
+      internalID: -3926048325364121202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 287
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f77a446f8c37870800000000000000
+      internalID: 8679501866912415499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_11
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 287
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9421a6a4077b390800000000000000
+      internalID: -7802644364486620691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_12
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 287
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef9931b49265fb90800000000000000
+      internalID: -7208747237768585243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 286
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b72b7193dc142320800000000000000
+      internalID: 2532180585493505969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 285
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e208c466b61eec690800000000000000
+      internalID: -7579873271423926226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 284
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8da47a8facdf300800000000000000
+      internalID: 287609120528980164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_16
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 284
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84502cc75849cd1e0800000000000000
+      internalID: -2171697619254770360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_17
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 284
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f636f3a9799a7c350800000000000000
+      internalID: 6036980294106440559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goo_18
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 284
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9bc505e6a396d10800000000000000
+      internalID: 2119289345123596731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 58c5a08798d1dc748bdb71efa46514ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

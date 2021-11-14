@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     void KillSomeone(GameObject deadCharacter)
     {
         Debug.Log(deadCharacter.GetComponent<Character>().CharacterName + " morreu!");
-        Destroy(deadCharacter);
+        deadCharacter.GetComponent<Character>().InvokeDeathFeedback();
     }
 
     void OnEnable()

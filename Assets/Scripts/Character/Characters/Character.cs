@@ -20,6 +20,7 @@ public class Character : MonoBehaviour
 
     [Header("Character Status")]
     [SerializeField] private CharacterType type;
+    [SerializeField] private Sprite portrait;
     [SerializeField] private string characterName;
     [SerializeField] private int currentHP;
     [SerializeField] private int maxHP;
@@ -35,10 +36,14 @@ public class Character : MonoBehaviour
 
     [Header("Control")]
     [SerializeField] protected Character target;
+    private GameObject targetStep; //Position stepped in front of every character
+    private Animator anim;
+    private GameObject cursor;
     [SerializeField] private bool finishedTurn;
 
     public CharacterType Type { get => type; set => type = value; }
     public string CharacterName { get => characterName; set => characterName = value; }
+    public Sprite Portrait { get => portrait; set => portrait = value; }
     public int CurrentHP { get => currentHP; set => currentHP = value; }
     public int MaxHP { get => maxHP; set => maxHP = value; }
     public int CurrentMana { get => currentMana; set => currentMana = value; }
@@ -51,17 +56,23 @@ public class Character : MonoBehaviour
     public int Experience { get => experience; set => experience = value; }
 
     public Character Target { get => target; set => target = value; }
+    public GameObject TargetStep { get => targetStep; set => targetStep = value; }
+    public GameObject Cursor { get => cursor; set => cursor = value; }
 
     public int Id { get => id; set => id = value; }
 
     void Start()
     {
-        id = Random.Range(0, 9999);   
+        SetupCharacter();
     }
 
-    void Update()
+    void SetupCharacter()
     {
-
+        id = Random.Range(0, 9999);
+        targetStep = transform.Find("step").gameObject;
+        cursor = transform.Find("cursor").gameObject;
+        if (type == CharacterType.Enemy) //Enquanto player não tem animator
+            anim = transform.Find("animator").GetComponent<Animator>();
     }
 
     public void InvokeAttackSkill()
@@ -70,7 +81,7 @@ public class Character : MonoBehaviour
     }
 
     public virtual IEnumerator AttackSkill()
-    {	
+    {
         if (type == CharacterType.Player)
         {
             OnPlayerAttacked?.Invoke();
@@ -80,13 +91,19 @@ public class Character : MonoBehaviour
             target = FindObjectOfType<ChooseTarget>().FindTarget().GetComponent<Character>();
         }
 
+        Vector2 startPosition = transform.position;
+        transform.position = target.TargetStep.transform.position;
+
+
         bool didDie = target.TakeDamage(attack);
         if (didDie)
             OnSomeoneKilled?.Invoke(target.gameObject);
 
         Debug.Log($"{characterName} atacou e deu {attack} de dano");
-        finishedTurn = true;
         yield return new WaitForSeconds(1f);
+        transform.position = startPosition;
+        yield return new WaitForSeconds(1f);
+        finishedTurn = true;
     }
 
     public bool TakeDamage(int dmg)
@@ -94,11 +111,40 @@ public class Character : MonoBehaviour
         currentHP -= dmg;
         OnAdjustLife?.Invoke(id, currentHP, this);
 
+        //Enquanto só os inimigos tem a animator. Depois essa linha vai padornizar pra todos os personagens
+        SpriteRenderer sprite = type == CharacterType.Player ? GetComponent<SpriteRenderer>()
+        : transform.Find("animator").GetComponent<SpriteRenderer>();
+        StartCoroutine(DamageFeedback(sprite));
+
         if (currentHP <= 0)
             return true;
         else
             return false;
-        
+
+    }
+
+    IEnumerator DamageFeedback(SpriteRenderer sprite)
+    {
+        float posFeedback = type == CharacterType.Player ? 0.2f : -0.3f;
+
+        sprite.color = Color.red;
+        transform.position = new Vector2(transform.position.x + posFeedback, transform.position.y - posFeedback);
+        yield return new WaitForSeconds(0.3f);
+        sprite.color = Color.white;
+        yield return new WaitForSeconds(0.3f);
+        transform.position = new Vector2(transform.position.x - posFeedback, transform.position.y + posFeedback);
+    }
+
+    public void InvokeDeathFeedback()
+    {
+        StartCoroutine(DeathFeedback(anim));
+    }
+
+    IEnumerator DeathFeedback(Animator animator)
+    {
+        animator.SetBool("death", true);
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        gameObject.SetActive(false);
     }
 
     void SetupFinishedTurn()
