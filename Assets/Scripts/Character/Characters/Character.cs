@@ -12,6 +12,9 @@ public class Character : MonoBehaviour
     public delegate void PlayerAttacked();
     public static event PlayerAttacked OnPlayerAttacked;
 
+    public delegate void PlayerDamage(int dmg, GameObject character);
+    public static event PlayerDamage OnPlayerDamage;
+
     public delegate void SomeoneKilled(GameObject deadCharacter);
     public static event SomeoneKilled OnSomeoneKilled;
 
@@ -95,7 +98,7 @@ public class Character : MonoBehaviour
         transform.position = target.TargetStep.transform.position;
 
 
-        bool didDie = target.TakeDamage(attack);
+        bool didDie = target.TakeDamage(attack, target.gameObject);
         if (didDie)
             OnSomeoneKilled?.Invoke(target.gameObject);
 
@@ -106,7 +109,7 @@ public class Character : MonoBehaviour
         finishedTurn = true;
     }
 
-    public bool TakeDamage(int dmg)
+    public bool TakeDamage(int dmg, GameObject target)
     {
         currentHP -= dmg;
         OnAdjustLife?.Invoke(id, currentHP, this);
@@ -114,7 +117,7 @@ public class Character : MonoBehaviour
         //Enquanto só os inimigos tem a animator. Depois essa linha vai padornizar pra todos os personagens
         SpriteRenderer sprite = type == CharacterType.Player ? GetComponent<SpriteRenderer>()
         : transform.Find("animator").GetComponent<SpriteRenderer>();
-        StartCoroutine(DamageFeedback(sprite));
+        StartCoroutine(DamageFeedback(sprite, dmg, target));
 
         if (currentHP <= 0)
             return true;
@@ -123,11 +126,11 @@ public class Character : MonoBehaviour
 
     }
 
-    IEnumerator DamageFeedback(SpriteRenderer sprite)
+    IEnumerator DamageFeedback(SpriteRenderer sprite, int dmg, GameObject character)
     {
         float posFeedback = type == CharacterType.Player ? 0.2f : -0.3f;
-
         sprite.color = Color.red;
+        OnPlayerDamage?.Invoke(dmg, character);
         transform.position = new Vector2(transform.position.x + posFeedback, transform.position.y - posFeedback);
         yield return new WaitForSeconds(0.3f);
         sprite.color = Color.white;

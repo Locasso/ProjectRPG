@@ -7,19 +7,16 @@ using UnityEngine.UI;
 public class TurnManager : MonoBehaviour
 {
     public delegate void FinishedTurn();
-    public static event FinishedTurn OnFinishedTurn;
+    public static event FinishedTurn OnFinishedTurn; //Evento disparado sempre que um turno finaliza
 
     [Header("References")]
-    public Character[] charactersInBattle;
+    public Character[] charactersInBattle; //Lista com todos os personagens na atual batalha
 
     [Header("HUD")]
-    public GameObject hudAction;
+    public GameObject hudAction; //Objeto que guarda a a HUD de opções em batalha.
     public GameObject battleHudObj; //Objeto de prefab para instanciar as HUDs de batalha.
     public GameObject battleHudParent;  //Objeto que vai receber as HUDs.
     public List<BattleHUD> bHUDInstantiateds; //Lista que vai guardar os objetos instanciados.
-
-    [Header("Control")]
-    public GameObject currentTurnCharacter;
 
     void Start()
     {
