@@ -23,7 +23,10 @@ public class Character : MonoBehaviour
 
     [Header("Character Status")]
     [SerializeField] private CharacterType type;
+
     [SerializeField] private Sprite portrait;
+    [SerializeField] private Vector2 posPortrait;
+
     [SerializeField] private string characterName;
     [SerializeField] private int currentHP;
     [SerializeField] private int maxHP;
@@ -39,14 +42,20 @@ public class Character : MonoBehaviour
 
     [Header("Control")]
     [SerializeField] protected Character target;
+    [SerializeField] private bool finishedTurn;
+
     private GameObject targetStep; //Position stepped in front of every character
     private Animator anim;
     private GameObject cursor;
-    [SerializeField] private bool finishedTurn;
+
+
 
     public CharacterType Type { get => type; set => type = value; }
     public string CharacterName { get => characterName; set => characterName = value; }
+
     public Sprite Portrait { get => portrait; set => portrait = value; }
+    public Vector2 PosPortrait { get => posPortrait; set => posPortrait = value; }
+
     public int CurrentHP { get => currentHP; set => currentHP = value; }
     public int MaxHP { get => maxHP; set => maxHP = value; }
     public int CurrentMana { get => currentMana; set => currentMana = value; }
@@ -64,6 +73,7 @@ public class Character : MonoBehaviour
 
     public int Id { get => id; set => id = value; }
 
+
     void Start()
     {
         SetupCharacter();
@@ -71,7 +81,7 @@ public class Character : MonoBehaviour
 
     void SetupCharacter()
     {
-        id = Random.Range(0, 9999);
+        id = GetInstanceID();
         targetStep = transform.Find("step").gameObject;
         cursor = transform.Find("cursor").gameObject;
         if (type == CharacterType.Enemy) //Enquanto player não tem animator
